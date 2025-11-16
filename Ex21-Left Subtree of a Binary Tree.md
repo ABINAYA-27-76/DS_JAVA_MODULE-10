@@ -5,12 +5,14 @@ To design and implement a java program that constructs a binary tree from given 
 
 ## Algorithm
 1. Start the program.
+   
 2. Define a Node class containing data, left child, and right child references.
-3. Construct the binary tree using level order input:
+   
+4. Construct the binary tree using level order input:
 
-  Use a queue to insert nodes level by level.
-
-  For each node, assign left and right children based on input values.
+   Use a queue to insert nodes level by level.
+   
+   For each node, assign left and right children based on input values.
 
 4. Create a function to count the nodes in the left subtree of the root:
 
